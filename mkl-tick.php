@@ -25,7 +25,7 @@ class MKL_Flip {
 		wp_enqueue_style( 'pqina/flip', MKL_FLIP_URL . 'node_modules/@pqina/flip/dist/flip.min.css', [], '1.8.0' );
 		wp_enqueue_style( 'mkl-tick', MKL_FLIP_URL . 'mkl-tick.css', [ 'pqina/flip' ], '1.0.0' );
 		wp_enqueue_script( 'pqina/flip', MKL_FLIP_URL . 'node_modules/@pqina/flip/dist/flip.min.js', [], '1.8.0', true );
-		wp_enqueue_script( 'mkl-tick', MKL_FLIP_URL . 'mkl-tick.js', [ 'pqina/flip' ], '1.0.0', true );
+		wp_enqueue_script( 'mkl-tick', MKL_FLIP_URL . 'mkl-tick.js', [ 'pqina/flip', 'jquery' ], '1.0.0', true );
 	}
 
 	public function render_shortcode( $attrs ) {
