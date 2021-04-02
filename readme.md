@@ -2,9 +2,16 @@
 
 This is very basic at the moment. 
 
-To use it, install and activate the plugin, and use the provided shortcode:
+## Usage:
+
+### Countdown:
+
+Use the following shortcode:
 
 `[mkl_flip type="countdown" date="2021-04-15"]`
+
+
+### Counter:
 
 You can also use the following shortcode in order to display any number:
 
@@ -12,7 +19,7 @@ You can also use the following shortcode in order to display any number:
 
 You can then access / update this number using JS. 
 
-For example: 
+**For example:** 
 
 Add the shortcode `[mkl_flip type="simple" value="21409248" id="my-dynamic-number"]`
 
