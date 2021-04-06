@@ -60,6 +60,9 @@ span.tick-label.tick-text {
     text-transform: uppercase;
     padding-top: 1em;
     padding-bottom: 1em;
+	@media (max-width: 780px) {
+		font-size: .8rem;
+	}
 }
 
 .tick-group:not(:last-child) {
